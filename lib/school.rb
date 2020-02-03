@@ -8,4 +8,5 @@ class School
     @roster[:students] << student
     @roster[:level] = []
     @roster[:level] << level
+  end
 end
