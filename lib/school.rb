@@ -20,10 +20,10 @@ class School
   end
   
   def sort 
-    sort = {}
+    sorted = {}
     roster.each do |x, y|
-      sort[x] = y.sort
+      sorted[x] = y.sort
     end
-    sort
+    sorted
   end
 end
