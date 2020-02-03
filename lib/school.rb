@@ -3,5 +3,6 @@ class School
     @name = name
     @roster = {}
   end
-  def 
+  def add_student
+    
 end
