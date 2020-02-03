@@ -1,5 +1,5 @@
 class School
-  def initialize(new_student)
-    @student = new_student
-  end
+  def initialize(school)
+    @school = school
+end
 end
